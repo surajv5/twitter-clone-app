@@ -1,9 +1,6 @@
 import React from 'react';
-import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
-import FontIcon from 'material-ui/FontIcon';
+import { Card, CardActions, CardHeader, CardMedia } from 'material-ui/Card';
 import IconButton from 'material-ui/IconButton';
-import ActionHome from 'material-ui/svg-icons/action/home';
 
 export class Post extends React.Component {
     render() {
@@ -21,7 +18,7 @@ export class Post extends React.Component {
             CardMedia >
             <
             img src = "https://pbs.twimg.com/media/DSHG9mwUQAELiux.jpg"
-        alt = "image" / >
+        alt = "post" / >
             <
             /CardMedia>   <
         CardActions > <
@@ -61,7 +58,7 @@ export class Post extends React.Component {
             CardMedia >
             <
             img src = "https://pbs.twimg.com/media/DSGPG-RUEAAqGyO.jpg"
-        alt = "image" / >
+        alt = "post" / >
             <
             /CardMedia>   <
         CardActions > <
@@ -99,7 +96,7 @@ export class Post extends React.Component {
             CardMedia >
             <
             img src = "https://pbs.twimg.com/card_img/946025583376568320/2fRxqikJ?format=jpg&name=600x314"
-        alt = "image" / >
+        alt = "post" / >
             <
             /CardMedia>  <
         CardActions > <
@@ -138,7 +135,7 @@ export class Post extends React.Component {
             CardMedia >
             <
             img src = "https://pbs.twimg.com/media/DSGcLKHVwAAChyE.jpg"
-        alt = "image" / >
+        alt = "post" / >
             <
             /CardMedia>  <
         CardActions > <
@@ -179,7 +176,7 @@ export class Post extends React.Component {
             CardMedia >
             <
             img src = "https://pbs.twimg.com/media/DSDkpguU8AERF2P.jpg"
-        alt = "image" / >
+        alt = "post" / >
             <
             /CardMedia> <
         CardActions > <

@@ -30,7 +30,8 @@ export class Topbar extends React.Component {
             a > <
             img id = "twitter"
         src = "https://png.icons8.com/color/26/000000/twitter.png"
-        height = "50%" / > < /a> <
+        height = "50%"
+        alt = "twitter" / > < /a> <
         input id = "searchtwitter"
         type = "text"
         placeholder = "Search Twitter" / > < AccountSetting / >
